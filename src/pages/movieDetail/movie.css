@@ -30,9 +30,13 @@
 }
 
 .movie__poster {
+    transition: transform 0.2s;
     width:300px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+.movie__poster:hover{
+    transform: scale(1.01);
 }
 
 .movie__detailRight {
